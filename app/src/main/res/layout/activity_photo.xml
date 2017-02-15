@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="8">
+    <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.example.heyha.framecamera.framecamera.MySurfaceView
+                android:id="@+id/mySurfaceVIew"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+      <!--  <com.example.heyha.framecamera.framecamera.RectFrameView
+                android:id="@+id/rectSurfaceView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>-->
+    </FrameLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        <Button
+                android:id="@+id/sticker_select_bg"
+                android:text="边框拍照"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="67dp"
+                android:layout_marginStart="67dp" android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+        <Button
+                android:text="全屏拍照"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/full_take" android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/sticker_select_bg" android:layout_toEndOf="@+id/sticker_select_bg" android:layout_marginLeft="36dp"
+                android:layout_marginStart="36dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
