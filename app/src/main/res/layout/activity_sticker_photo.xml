@@ -7,55 +7,38 @@
         android:layout_height="match_parent"
         tools:context="com.example.heyha.framecamera.stickercamera.StickerPhotoActivity">
 
-    <FrameLayout
+    <com.example.heyha.framecamera.stickercamera.ui.CameraSourcePreview
             android:layout_width="match_parent"
+            android:id="@+id/camera_source_preview"
             android:layout_height="match_parent">
-        <TextureView
-                android:id="@+id/sticker_surface_view"
+        <com.example.heyha.framecamera.stickercamera.ui.GraphicOverlay
                 android:layout_width="match_parent"
+                android:id="@+id/graphic_overlay"
                 android:layout_height="match_parent"/>
-    </FrameLayout>
-
-    <LinearLayout
-            android:id="@+id/sticker_image_layout"
-            android:background="@null"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <ImageView
-                android:id="@+id/sticker_select_frame"
-                android:layout_width="200dp"
-                android:background="@mipmap/ic_pic"
-                android:layout_height="200dp"/>
-    </LinearLayout>
-
-    <RelativeLayout
-            android:layout_width="match_parent"
+    </com.example.heyha.framecamera.stickercamera.ui.CameraSourcePreview>
+    <Button
+            android:text="边框拍照"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/button"
+            android:layout_marginLeft="42dp"
+            android:layout_alignParentBottom="true" android:layout_alignLeft="@+id/camera_source_preview"
+            android:layout_alignStart="@+id/camera_source_preview" android:layout_marginStart="42dp"/>
+    <Button
+            android:text="贴纸拍照"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_sticker"
+            android:layout_alignBaseline="@+id/button" android:layout_alignBottom="@+id/button"
+            android:layout_toRightOf="@+id/button" android:layout_toEndOf="@+id/button" android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"/>
+    <Button
+            android:id="@+id/flipButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
-        <Button
-                android:text="拍照"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/sticker_take_photo"
-                android:layout_alignParentTop="true"
-                android:layout_toRightOf="@+id/sticker_select_bg"
-                android:layout_toEndOf="@+id/sticker_select_bg"
-                android:layout_marginLeft="36dp"
-                android:layout_marginStart="36dp"/>
-        <ImageView
-                android:id="@+id/sticker_select_bg"
-                android:background="@mipmap/ic_pic"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="67dp"
-                android:layout_marginStart="67dp"
-                android:layout_centerVertical="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"/>
-    </RelativeLayout>
+            android:layout_alignParentBottom="true"
+            android:text="flip"/>
 
 </RelativeLayout>

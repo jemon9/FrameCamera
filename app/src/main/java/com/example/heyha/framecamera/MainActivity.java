@@ -32,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(new Intent(this,PhotoActivity.class),1);
     }
 
-    @OnClick(R.id.btn_sticker)
+    /*@OnClick(R.id.btn_sticker)
     public void takeStickerPhoto(){
         startActivityForResult(new Intent(this,StickerPhotoActivity.class),2);
-    }
+    }*/
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -49,13 +49,13 @@ public class MainActivity extends AppCompatActivity {
                         photo.setImageBitmap(bitmap);
                     }
                     break;
-                case 2:
+               /* case 2:
                     filePath = data.getStringExtra("filePath");
                     if (filePath != null){
                         Bitmap bitmap = BitmapFactory.decodeFile(filePath);
                         photo.setImageBitmap(bitmap);
                     }
-                    break;
+                    break;*/
             }
         }
     }

@@ -22,17 +22,16 @@
             android:text="边框拍照"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="19dp"
             android:id="@+id/button"
-            android:layout_marginLeft="42dp"
-            android:layout_alignParentBottom="true" android:layout_alignLeft="@+id/imageView"
-            android:layout_alignStart="@+id/imageView" android:layout_marginStart="42dp"/>
-    <Button
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+    <!--<Button
             android:text="贴纸拍照"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_sticker"
             android:layout_alignBaseline="@+id/button" android:layout_alignBottom="@+id/button"
             android:layout_toRightOf="@+id/button" android:layout_toEndOf="@+id/button" android:layout_marginLeft="32dp"
-            android:layout_marginStart="32dp"/>
+            android:layout_marginStart="32dp"/>-->
 </RelativeLayout>

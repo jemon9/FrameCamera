@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_29689ba1ad9f00262e0652d8aed41a08f276fcef.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -21,21 +30,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_ccf472d9c9f701709a7401966315c9b9a51ec6b5.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
         <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_7665e671a4ae3df2e27c2a66110131559a08c4cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_ccf472d9c9f701709a7401966315c9b9a51ec6b5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,12 +75,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.4.0_bc12b005bb421a2358a3a10dac957b7883d7a31f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
         <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.0_9674660df48b82858fa036c93ac18b1734015b41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_dfc1c4071f93e8e79ccedabc0882ed6e22460954.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_92890c495e1e2fa7d59a8037bc04b43527ec6764.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,12 +120,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jar="F:\AndroidExample\FrameCamera\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_92890c495e1e2fa7d59a8037bc04b43527ec6764.jar" />
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="F:\AndroidExample\FrameCamera\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_953ea25e5b8cb48998ced754faee233ea53f8db8.jar" />
     </item>
     <item
         is-multidex="false"
